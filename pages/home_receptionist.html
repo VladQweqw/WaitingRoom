@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Online Waiting Room</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+        <div class="navbar calendar-navbar">
+            <div class="left-side navbar-side">
+               <span class="navbar-item">
+                   <div class="hamburger">
+                       <span class="line"></span>
+                       <span class="line"></span>
+                       <span class="line"></span>
+
+                   </div>
+               </span>
+               <span class="navbar-item">
+                   <a href="./waiting_room.html">HOME</a>
+               </span>
+               <span class="navbar-item">
+                   <a href="./calendar.html">AGENDA</a>
+               </span>
+               <span class="navbar-item">
+                   <a href="./home_receptionist.html">DOKTERS</a>
+               </span>
+            </div>
+            <div class="right-side navbar-side">
+               <span class="navbar-item user">
+                   <div class="dropdown-content">
+                       <div class="#">
+                           <svg class="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                               <g clip-path="url(#clip0_7_14217)">
+                               <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                               <path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                               </g>
+                               <defs>
+                               <clipPath id="clip0_7_14217">
+                               <rect width="24" height="24" fill="white"/>
+                               </clipPath>
+                               </defs>
+                           </svg>
+                           Mijn Profiel
+                       </div>
+                       <a href="/pages/blank1.html">+ Home</a>
+                       <a href="/pages/blank2.html">+ Medicijnen</a>
+                       <a href="/pages/blank3.html">+ Persoonlijke gegevens</a>
+                       <a href="/pages/blank4.html">+ Uitslagen</a>
+                       <a href="/pages/blank5.html">+ Voorlichtingsmateriaal</a>
+
+                   </div>
+
+                   <a href=""><svg class="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <g clip-path="url(#clip0_7_14217)">
+                       <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                       </g>
+                       <defs>
+                       <clipPath id="clip0_7_14217">
+                       <rect width="24" height="24" fill="white"/>
+                       </clipPath>
+                       </defs>
+                   </svg></a>
+               </span>
+               <div class="logo-wrapper flex-center">
+                   <a href="../index.html" class=" flex-center">
+                       <img src="../assets/images/logo.png" alt="LOGO" class="logo navbar-logo">
+                   </a>
+               </div>
+           </div>
+       </div>
+        
+        <main id="receptionist_home" class="main">
+            <div class="doctors">
+            
+            </div>
+           
+            <div class="right-side-receptionist">
+                <header>
+                    <p>Lopende afspraak</p>
+                </header>
+                <div class="doctors-appointments">
+                    <p class="appointment">Dr. Singagerda: patiënt 2 12:30</p>
+                    <p class="appointment">Dr. Dirksten: patiënt 6 12:30</p>
+                    <p class="appointment">Dr. Tuitert: patiënt 10 12:00</p>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <svg class="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_7_16429)">
+                <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 8H12.01" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 12H12V16H13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_7_16429">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+                
+        </footer> 
+        <script src="/scripts/doctors.js" async defer></script>
+    </body>
+</html>
